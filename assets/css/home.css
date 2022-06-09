@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#contactList{
+    position: relative;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 31%;
+    height: 50%;
+}
+
+#heading{
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+}
+#heading i {
+   padding: 0px 10px;   
+   position: relative;
+   top:5px;
+}
+
+#list{
+    margin-top: 10px;
+}
+
+.contact_list_items{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    background-color: rgb(3, 136, 197);
+    margin-bottom: 5px;
+    font-size: 25px;
+    color:white;
+    width: 27vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact_list_items:hover{
+    background-color: rgb(85, 85, 85);
+}
+
+#delete_button a{
+    text-decoration: none;
+    color: gray;
+}
+
+#delete_button a:hover{
+    color: rgb(202, 29, 29);
+}
+
+#Add_contact_form{
+    position:relative;
+    top:30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+    width: 100%;
+}
+
+#contact_name{
+    padding: 5px;
+    font-size: 12px;
+    width: 150px;
+    border-radius:10px;
+    border: 3px gray solid;
+    color: black;
+}
+
+#contact_phone{
+    padding: 5px;
+    width: 150px;
+    font-size: 12px;
+    border-radius:10px;
+    border: 3px gray solid;
+    color: black;
+}
+
+#addcontact{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
