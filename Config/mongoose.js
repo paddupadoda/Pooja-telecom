@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/batches_db')
+mongoose.connect('mongodb+srv://sheryianssheryians:sheryians@cluster0.imx2n.mongodb.net/?retryWrites=true&w=majority')
 
 const db = mongoose.connection;
 
