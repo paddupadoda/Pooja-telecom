@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/contact_db')
+mongoose.connect('mongodb+srv://User_not_found:mongolund@contact.xqjjwyl.mongodb.net/?retryWrites=true&w=majority')
 
 const db = mongoose.connection;
 
