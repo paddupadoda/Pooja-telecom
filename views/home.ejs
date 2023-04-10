@@ -17,7 +17,7 @@
                     <li>
                         <div class="contact_list_items">
                         <p><%= i.name %></p>
-                        <p><%= i.phone %> </p>
+                        <a href="tel:<%=i.phone%>"><p><%= i.phone %> </p></a>
                         <div id="delete_button">
                             <a href="/delete-contact/?id=<%= i._id %>&Name=<%= i.name%>">
                                 <i class="ri-delete-bin-5-fill"></i>

@@ -9,7 +9,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "16.14.0"
+    "node": "v16.14.0"
   },
   "keywords": [],
   "author": "",
